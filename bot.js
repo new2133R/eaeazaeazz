@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "i"
-var adminprefix = 'i'
+var prefix = "P"
+var adminprefix = 'P'
 
 
 //bc
@@ -23,7 +23,7 @@ client.on("message", message => {
 //bc online
 
 
-  var prefix = "i";
+  var prefix = "P";
 
   client.on("message", message => {
   
@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["517694113190117386"]
+const developers = ["619448068491706368"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
